@@ -1,0 +1,59 @@
+section {
+    padding-top: 115px;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+.line {
+    background-color: var(--main-color);
+}
+
+i {
+    color : var(--main-color)
+}
+
+
+.input-container {
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.6s, opacity 0.6s;
+  }
+  
+  label.active {
+    opacity: 1;
+    visibility: visible;
+    top: -20px;
+    color: var(--second-color);
+    margin-bottom: 7px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 7px;
+    outline: none;
+    margin-bottom: 5px;
+  }
+
+  .submit {
+    background-color: var(--second-color);
+    color: var(--text-color);
+    padding: 6px 12px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color.4s;
+  }
+  

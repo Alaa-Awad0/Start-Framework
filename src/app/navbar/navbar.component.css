@@ -1,0 +1,21 @@
+nav {
+    background-color: var(--main-color);
+    transition: padding 0.6s ease;
+}
+
+.navbar.shrink {
+  padding-block: 8px !important;
+}
+
+.nav-link {
+    color: var(--text-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 8px;
+  }
+
+  .active{
+    background-color: var(--second-color);
+    color: var(--text-color) !important;
+  }

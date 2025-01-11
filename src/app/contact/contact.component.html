@@ -1,0 +1,26 @@
+<section class="mb-5">
+  <div class="container">
+    <h1 class="text-center fw-bolder fs-1 text-uppercase mb-4 pt-4">
+      conatct section
+    </h1>
+    <div class="mb-2 d-flex justify-content-center">
+      <div class="line"></div>
+      <i class="fa-solid fa-star px-3 translate-middle-y"></i>
+      <div class="line"></div>
+    </div>
+    <form class="w-50 mx-auto pt-5 pb-4 ">
+      @for (field of fields; track $index) {
+      <div class="input-container">
+        <label [class.active]="field.isActive">{{ field.label }}</label>
+        <input
+          type="text"
+          class="py-3"
+          (input)="onInput($index)"
+          [placeholder]="field.label"
+        />
+      </div>
+      }
+      <button class="submit" type="submit" >Send Message</button>
+    </form>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+section {
+    background-color: var(--second-color);
+    height: 100vh;
+    padding-bottom: 150px;
+  }
+
+  .container {
+    position: relative;
+    top: 20%;
+  }
+  
+  @media screen and (min-width:360px) {
+    section {
+      height: calc(100vh - 20px);
+    }
+  }
+  

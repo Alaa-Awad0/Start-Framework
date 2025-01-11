@@ -1,0 +1,38 @@
+footer {
+background-color: var(--main-color);
+padding-block: 60px;
+text-align: center;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: calc(1.3rem + .6vw);
+}
+
+.icons a {
+  width: 35px;
+  height: 35px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--text-color);
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px;
+  color: var(--text-color);
+  transition: background-color .4s;
+}
+
+.copyright {
+    background-color: #1a252f;
+    padding: 10px;
+}
+
+.copyright p {
+    text-align: center;
+padding-top: 10px;
+margin-bottom: 1rem;
+}
+
+

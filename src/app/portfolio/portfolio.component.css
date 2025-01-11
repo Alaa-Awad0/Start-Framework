@@ -1,0 +1,43 @@
+section {
+    padding-top: 115px;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+.line {
+    background-color: var(--main-color);
+}
+
+i {
+    color : var(--main-color)
+}
+
+ img {
+    width: 100%;
+}
+
+.overlay {
+    background-color: #1abc9ce6;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.modal img {
+    width: 600px;
+}
+
+i {
+cursor: pointer;
+}
